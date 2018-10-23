@@ -7,6 +7,6 @@
 - Choosing thoughtful and appropriate choices in regards to typography, colors, spacing, and overal design/positioning of elements
 
 ## Original comp img
-![Screenshot](static-comp-challenge-2-img.png)
+![Screenshot](https://github.com/hlhartley/hh-comp-challenge-2/blob/master/static-comp-challenge-2-img.jpg)
 
 ## My comp img
