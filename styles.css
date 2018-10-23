@@ -1,0 +1,177 @@
+* {
+  font-family: 'Niramit', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: #6f7e95;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6f7e95;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: navy;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "sidebar header header header header"
+  "sidebar main main main main";
+}
+
+.container-left-nav-bar {
+  background-color: #354052;
+  grid-area: sidebar;
+}
+
+.nav-bar-styles {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+}
+
+.top-left-nav-bar {
+  justify-content: center;
+  align-items: center;
+}
+
+.second-left-nav-bar,
+.third-left-nav-bar, 
+.fourth-left-nav-bar {
+  justify-content: space-around;
+  height: 250px;
+}
+
+.container-header {
+  grid-area: header;
+}
+
+.container-main {
+  background-color: #edf2f6;
+  grid-area: main;
+}
+
+#user-img {
+  border-radius: 50%;
+  width: 90px;
+  height: auto;
+  margin: 7px;
+}
+
+.fas, .far {
+  margin: 10px;
+}
+
+.fas:hover, .far:hover {
+  color: white;
+}
+
+/* Customize the label (the container) */
+.category-checkboxes {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.category-checkboxes input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+}
+
+.admin-check {
+  background-color: #ffcf18;
+}
+
+.design-check {
+  background-color: #2196F3;
+}
+
+.executive-check {
+  background-color: #e92169;
+}
+
+.resource-check {
+  background-color: #0ca98c;
+}
+
+/* On mouse-over, add a grey background color */
+/*.category-checkboxes:hover input ~ .checkmark {
+  background-color: #ccc;
+}*/
+
+/* When the checkbox is checked, add a blue background */
+/*.admin-checkbox input:checked ~ .checkmark {
+  background-color: #ffcf18;
+}
+
+.design-checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.executive-checkbox input:checked ~ .checkmark {
+  background-color: #e92169;
+}
+
+.resources-checkbox input:checked ~ .checkmark {
+  background-color: #0ca98c;
+}*/
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.category-checkboxes input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.category-checkboxes .checkmark:after {
+  left: 5px;
+  width: 3px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
