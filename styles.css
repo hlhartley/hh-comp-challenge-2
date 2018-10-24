@@ -6,7 +6,7 @@
   margin: 0px;
   color: #6f7e95;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 a {
@@ -84,13 +84,14 @@ h3 {
   background-color: #edf2f6;
   grid-area: main;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-header {
   display: flex;
   justify-content: space-between;
-  height: auto;
+  height: 210px;
   width: 100%;
 }
 
@@ -132,29 +133,31 @@ h3 {
 .social-links {
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  align-items: space-evenly;
   margin-top: 40px;
-  margin-left: 50px;
   width: 100%;
   text-align: center;
 }
 
-.fb-link {
+#fb-link {
   background-color: #4c70c4;
   height: 60px;
   width: 300px;
+  margin: 10px;
 }
 
 .twitter-link {
   background-color: #01aaef;
   height: 60px;
   width: 300px;
+  margin: 10px;
 }
 
 .linkedin-link {
   background-color: #037fbb;
   height: 60px;
   width: 300px;
+  margin: 10px;
 }
 
 /*hamburger*/
@@ -319,7 +322,7 @@ h3 {
 
 table {
   height: 500px;
-  width: 90%;
+  /*width: 85%;*/
   margin: 40px;
   padding: 20px;
   border: 2px solid grey;
@@ -328,6 +331,12 @@ table {
 
 th {
   width: 150px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 31px;
 }
 
 /*.table-header {
