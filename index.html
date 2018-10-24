@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Heather's Static Comp Challenge 2</title>
   <link rel="stylesheet" type="text/css" href="normalize.css"/>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Niramit:300,400,700" rel="stylesheet">
@@ -10,55 +10,105 @@
 </head>
 <body class="container">
 <header class="container-header">
-  Header
+  <article class="top-header">
+    <i class="fas fa-caret-left"><span class="hamburger-button"></i>
+      <nav class='hamburger'>
+        <div class='top-bar bar'></div>
+        <div class='middle-bar bar'></div>
+        <div class='bottom-bar bar'></div>
+      </nav>
+    </span>
+    <span class="search-header">Text</span>
+    <span class="three-links-header">
+      <i class="fas fa-user-plus"></i>
+      <i class="fas fa-clipboard-list"></i>
+      <i class="fas fa-th"></i>
+    </span>
+  </article>
+  <article class="text-header">
+    <section class="title-text">
+      <p><h2>Customer Service Representative</h2></p>
+      <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA - <a href="https://www.google.com/">Preview this post</a></p>
+      </section>
+      <section class="title-links">
+        <a href="http://google.com/">Open</a>
+        <a href="http://google.com/"><i class="fas fa-bookmark"></i></a>
+        <a href="http://google.com/"><i class="fas fa-pencil-alt"></i></a>
+        <a href="http://google.com/"><i class="fas fa-trash-alt"></i></a>
+      </section>
+    </article>
+    <article class="seven-link-bar">
+      <a href="http://google.com/">SUMMARY</a>
+      <a href="http://google.com/">APPLICANTS</a>
+      <a href="http://google.com/">JOB BOARD</a>
+      <a href="http://google.com/">INTERVIEWS</a>
+      <a href="http://google.com/">ACTIVITY</a>
+      <a href="http://google.com/">BROADCAST</a>
+      <a href="http://google.com/">NOTIFICATIONS</a>
+    </article>
 </header>
 <aside class="container-left-nav-bar">
   <section class="top-left-nav-bar nav-bar-styles">
     <img id="user-img" src="images/user-image.jpg">
-    <p>Newton Barley <i class="fas fa-angle-down"></i></p>
+    <p>Heather Hartley <i class="fas fa-angle-down"></i></p>
   </section>
   <section class="second-left-nav-bar nav-bar-styles">
     <h3>Main</h3>
-    <a href="http://google.com/"><i class="fas fa-home"></i> HOME</a>
-    <a href="http://google.com/"><i class="fas fa-briefcase"></i> JOBS</a>
-    <a href="http://google.com/"><i class="fas fa-file-alt"></i> RESUMES</a>
-    <a href="http://google.com/"><i class="fas fa-clipboard-list"></i> TASKS</a>
-    <a href="http://google.com/"><i class="fas fa-calendar-alt"></i> CALENDAR</a>
+    <a href="http://google.com/"><i class="fas fa-home"><span class="links">HOME</i></a></span>
+    <a href="http://google.com/"><i class="fas fa-briefcase"><span class="links">JOBS</i></a></span>
+    <a href="http://google.com/"><i class="fas fa-file-alt"><span class="links">RESUMES</i></a></span>
+    <a href="http://google.com/"><i class="fas fa-clipboard-list"><span class="links">TASKS</i></a></span>
+    <a href="http://google.com/"><i class="fas fa-calendar-alt"><span class="links">CALENDAR</a></i></span>
   </section>
   <section class="third-left-nav-bar nav-bar-styles">
     <h3>Admin</h3>
-    <a href="http://google.com/"><i class="fas fa-user-friends"></i> USERS</a>
-    <a href="http://google.com/"><i class="fas fa-map-marker-alt"></i> LOCATIONS</a>
-    <a href="http://google.com/"><i class="fas fa-network-wired"></i> WORKFLOWS</a>
-    <a href="http://google.com/"><i class="far fa-newspaper"></i> JOB BOARDS</a>
-    <a href="http://google.com/"><i class="fas fa-user-friends"></i> SOCIAL</a>
+    <a href="http://google.com/"><i class="fas fa-user-friends"><span class="links">USERS</a></i></span>
+    <a href="http://google.com/"><i class="fas fa-map-marker-alt"><span class="links">LOCATIONS</a></i></span>
+    <a href="http://google.com/"><i class="fas fa-network-wired"><span class="links">WORKFLOWS</a></i></span>
+    <a href="http://google.com/"><i class="far fa-newspaper"><span class="links">JOB BOARDS</a></i></span>
+    <a href="http://google.com/"><i class="fas fa-user-friends"><span class="links">SOCIAL</a></i></span>
   </section>
   <section class="fourth-left-nav-bar nav-bar-styles">
     <h3>Categories</h3>
+    <br>
     <label class="category-checkboxes admin-checkbox">Administrative
   <input type="checkbox">
   <span class="checkmark admin-check"></span>
 </label>
-
 <label class="category-checkboxes design-checkbox">Design
   <input type="checkbox">
   <span class="checkmark design-check"></span>
 </label>
-
 <label class="category-checkboxes executive-checkbox">Executive
   <input type="checkbox">
   <span class="checkmark executive-check"></span>
 </label>
-
 <label class="category-checkboxes resources-checkbox">Human Resources
   <input type="checkbox">
   <span class="checkmark resource-check"></span>
 </label>
   </section>
 </aside>
+
 <main class="container-main">
-  Main container
+  <section class="table-section">
+  <table>
+    <tr class="table-header"><th>JOB DESCRIPTION</th><td><i class="fas fa-pencil-alt"></i>EDIT</td></tr>
+    <tr><th>POSITION TITLE</th><td>Customer Service Representative</td>
+    </tr>
+    <tr><th>LOCATION</th><td>San Francisco, CA</td></tr>
+    <tr><th>EMPLOYMENT TYPE</th><td>Full-Time</td></tr>
+    <tr><th>EXPERIENCE</th><td>Mid-level</td></tr>
+    <tr><th>STATUS</th><td>Open</td></tr>
+    <tr><th>DESCRIPTION</th><td>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product, shizzle; helping the business reduce customer service wait times while doing a backhand spring and eating a ham sandwich.</td></tr>
+    <tr><th>HIRING LEAD</th><td>Tom Tizzy</td></tr>
+    <tr><th>APPROVED SALARY</th><td>$58,000</td></tr>
+  </table>
+</section>
+<section>
+<a href="facebook.com"><i class="fab fa-facebook-f"></i>Post to Facebook</a>
 </main>
-<script type="text/javascript" href="script.js"></script>
+</section>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
