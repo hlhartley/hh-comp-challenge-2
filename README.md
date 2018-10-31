@@ -9,5 +9,8 @@
 ## Original comp img
 ![Screenshot](https://github.com/hlhartley/hh-comp-challenge-2/blob/master/static-comp-challenge-2-img.jpg)
 
-## My comp img
+## My comp img desktop view
 ![Screenshot](hh-comp-challenge-2.png)
+
+## My comp img mobile view
+![Screenshot](hh-comp-challenge-2-mobileview.png)
