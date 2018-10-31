@@ -10,3 +10,4 @@
 ![Screenshot](https://github.com/hlhartley/hh-comp-challenge-2/blob/master/static-comp-challenge-2-img.jpg)
 
 ## My comp img
+![Screenshot](hh-comp-challenge-2.png)
